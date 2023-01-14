@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(238,238,238);
+    font-family: 'Nunito', sans-serif;
+}
+
+#logo {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#logo img {
+    height: 30px;
+}
+
+#content {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    position: relative;
+}
+
+#leftDiv > div {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+#rightDiv {
+    margin: 10px 0px;
+    background-color: white;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+}
+
+#cName img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#cName > div {
+    display: flex;
+    align-items: center;
+}
+
+select, input, button {
+    padding: 10px;
+}
+
+#addressBtn {
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#placeOrder {
+    display: block;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(1,136,73);
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 20px 0px;
+    border: none;
+    font-size: large;
+}
+
+#placeOrder:hover {
+    cursor: pointer;
+    background-color:  rgb(1, 95, 51);
+}
+
+
+.products {
+    display: flex;
+    padding: 20px;
+    height: 180px;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+
+.products img {
+    height: 90%;
+    margin-right: 20px;
+}
+
+#deleteBut {
+    margin: 0px 20px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+#edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#edit a {
+    text-decoration: none;
+    color: black;
+}
+
+.ttp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo > img:last-child {
+    height: 40px;
+    background-color: white;
+}
