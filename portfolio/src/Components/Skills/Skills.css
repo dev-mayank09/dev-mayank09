@@ -1,0 +1,15 @@
+.Skills {
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+    gap: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.UserProfile {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.UserProfile > div {
+    margin: 0px 20px;
+}
+
+.UserProfile > div:first-child {
+    width: 500px;
+}
+
+.UserProfile > div > h1, .UserProfile > div > p {
+    margin: 10px 0px;
+}
+
+.UserProfile > div > button {
+    margin: 20px 0px;
+}

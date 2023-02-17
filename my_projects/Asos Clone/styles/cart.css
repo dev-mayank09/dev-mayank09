@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: rgb(238,238,238);
+}
+
+#content {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#bagMesg {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#leftDiv > div {
+    background-color: rgb(255,255,255);
+}
+
+.products {
+    display: flex;
+    padding: 20px;
+    height: 180px;
+    border-bottom: 1px solid rgb(209, 208, 208);
+    position: relative;
+}
+
+.products img {
+    height: 90%;
+}
+
+.textDiv {
+    margin-left: 20px;
+}
+
+.textDiv  select {
+    margin: 0px 10px;
+}
+#price {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.textDiv button {
+    margin: 20px 0px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(223, 221, 221);
+}
+
+#cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+#rightDiv {
+    background-color: rgb(255,255,255);
+    padding: 20px;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+}
+
+#subtotalDiv {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(225, 224, 224);
+}
+
+#deliveryDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkoutBtn {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(1,136,73);
+    color: white;
+    border: none;
+}
+
+#checkoutBtn:hover {
+    cursor: pointer;
+    background-color: rgb(2, 92, 50);
+}
+
+#visa {
+    width: 100%;
+}
+
+#items {
+    padding: 0px 20px;
+}
+
+#truckImg {
+    height: 40px;
+    margin: 10px 30px;
+}
+
+#delivery {
+    display: flex;
+    line-height: 10px;
+    padding: 10px;
+}
+
+#subDiv {
+    display: flex;
+    justify-content: right;
+    margin: 10px 0px;
+}
+
+#subDiv > h4 {
+    margin: 30px;
+}

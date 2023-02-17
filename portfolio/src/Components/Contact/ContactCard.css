@@ -1,0 +1,12 @@
+.ContactCard {
+    text-align: center;
+}
+
+.ContactCard i {
+    font-size: 30px;
+}
+
+.ContactCard a {
+    color: green;
+    margin: auto;
+}

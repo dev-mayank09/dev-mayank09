@@ -1,0 +1,47 @@
+.ProjectCard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+    margin: 50px 0px;
+}
+
+
+.ProjectCard img {
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.tagsDiv > span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tech-name {
+    color: green;
+}
+
+.linksDiv {
+    margin: 20px 0px;
+}
+
+.linksDiv > a {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.linksDiv > a > i {
+    margin: 0px 5px;
+}
+
+.linksDiv > a:first-child {
+    background-color: black;
+}
+
+.linksDiv > a:last-child {
+    background-color: royalblue;
+}
+
+
+

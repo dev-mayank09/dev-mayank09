@@ -1,0 +1,27 @@
+.PersonalDetails {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.PersonalDetails > div:first-child {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.PersonalDetails > div:last-child {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+p {
+    margin: 10px 0px;
+}

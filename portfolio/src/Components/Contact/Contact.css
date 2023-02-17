@@ -1,0 +1,17 @@
+.Contact {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-top: 2px solid rgb(222, 220, 220);
+}
+
+.ContactCardsDiv {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.Contact > h1 {
+    text-align: center;
+}
